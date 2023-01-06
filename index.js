@@ -59,14 +59,14 @@ let students = [
 let teenagers = []
 let others = []
 
-for(let item of students ) {
-    if(item.age < 18)      {
-        teenagers.push (item.name)}
-     else {
-        others.push (item.name) 
+for (let item of students) {
+    if (item.age < 18) {
+        teenagers.push(item.name)
+    }
+    else {
+        others.push(item.name)
     }
 }
-console.log(teenagers,others)
 // for(let i = 0; i <= students.length - 1; i++) {
 //     if(students[i].age < 18)     {
 //         teenagers.push (item.name)
@@ -74,3 +74,4 @@ console.log(teenagers,others)
 //         others.push (item.name) 
 //     }
 // }
+console.log(teenagers, others)
